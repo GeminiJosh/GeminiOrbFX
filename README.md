@@ -112,17 +112,20 @@ Just import it into Streamer.bot — no manual setup required.
 - Main Menu  
   - Shows service mode + status  
   - Queue info
+
 <img width="794" height="674" alt="GeminiOrbFX Main" src="https://github.com/user-attachments/assets/cd35083b-e1d2-4d30-9e8f-1588673f3f78" />
 
 - Gameplay Setup  
   - Live status view  
   - Queue + connection state
+
 <img width="958" height="611" alt="Gameplay Menu Status" src="https://github.com/user-attachments/assets/5ece5008-7955-49cf-8ab7-9fea6f2b1f3d" />
  
 - Orb Controls  
   - Real-time preview  
   - No save required for testing  
   - Save to keep changes
+
 <img width="886" height="686" alt="Orb Controls Preview" src="https://github.com/user-attachments/assets/eb21b4f9-309c-4b08-89a1-de9a66b99cb3" />
 
 ---
