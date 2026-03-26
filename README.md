@@ -6,7 +6,6 @@ Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok
 
 <img width="1638" height="822" alt="Screenshot 2026-03-26 165130" src="https://github.com/user-attachments/assets/484d41cd-97d7-424a-aeab-a2e3981f75ea" />
 
-
 ---
 
 ## ✨ Features
@@ -19,7 +18,6 @@ Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok
 - Gift filtering (specific gifts / coin thresholds)
 - Follow triggers
 - Live preview for orb settings 
-- Debug tools for testing
 
 ---
 
@@ -39,24 +37,11 @@ Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok
 - Built into the mod  
 - Requires your own Euler API key (see below)  
 - Connect from the in-game UI
+  
 <img width="756" height="637" alt="Tiktok Connection" src="https://github.com/user-attachments/assets/94ee67b0-c7ab-4e2f-baf4-dac45d836ed4" />
 <img width="771" height="647" alt="Tiktok Triggers" src="https://github.com/user-attachments/assets/2660a9dd-fc86-4600-801f-c16481e67f96" />
 <img width="760" height="656" alt="Tiktok Gift Settings" src="https://github.com/user-attachments/assets/f1327966-1505-4753-8b62-7c4e1ef55f01" />
 
-
----
-
-### 🤖 Streamer.bot (Recommended)
-
-- Works with:
-  - Twitch
-  - TikTok (via Streamer.bot / TikFinity)
-  - YouTube
-- No API key required  
-- Uses simple HTTP endpoints  
-- Most stable option
-<img width="726" height="633" alt="Tiktok Streamer Bot Setting" src="https://github.com/user-attachments/assets/49235365-29f7-428b-bdf2-51cf217a6e12" />
-  
 
 ---
 
@@ -71,7 +56,21 @@ TikTok Relay requires your own Euler API key.
 5. Open your config file (GeminiOrbFX)  
 6. Find: "EulerApiKey": ""
 7. Add your key:
-8. Save and restart the game  
+8. Save and restart the game 
+
+---
+
+### 🤖 Streamer.bot (Recommended)
+
+- Works with:
+  - Twitch
+  - TikTok (via Streamer.bot / TikFinity)
+  - YouTube
+- No API key required  
+- Uses simple HTTP endpoints  
+- Most stable option
+  
+<img width="726" height="633" alt="Tiktok Streamer Bot Setting" src="https://github.com/user-attachments/assets/49235365-29f7-428b-bdf2-51cf217a6e12" />
 
 ---
 
@@ -123,7 +122,6 @@ Just import it into Streamer.bot — no manual setup required.
  
 - Orb Controls  
   - Real-time preview  
-  - No save required for testing  
   - Save to keep changes
 
 <img width="886" height="686" alt="Orb Controls Preview" src="https://github.com/user-attachments/assets/eb21b4f9-309c-4b08-89a1-de9a66b99cb3" />
