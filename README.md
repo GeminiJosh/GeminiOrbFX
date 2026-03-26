@@ -88,7 +88,13 @@ Parameters:
 - speed → orb speed  
 - color → hex or named color  
 - h,s,v → HSV values  
-- hsv → comma format  
+- hsv → comma format
+
+## ⚡ Streamer.bot Preset
+
+A ready-to-use preset is included in Releases.
+
+Just import it into Streamer.bot — no manual setup required. 
 
 ---
 
