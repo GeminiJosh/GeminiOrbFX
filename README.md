@@ -4,7 +4,8 @@
 
 Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok, Twitch, Streamer.bot, HTTP).
 
-<img width="724" height="700" alt="image" src="https://github.com/user-attachments/assets/897b605d-8cdc-45e2-9e67-f71125307815" />
+<img width="2147" height="1124" alt="Gameplay Orb Preview" src="https://github.com/user-attachments/assets/74be3cf1-906f-4593-962a-2286d208a9fe" />
+
 
 
 ---
