@@ -18,7 +18,7 @@ Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok
 - Chat command triggers
 - Gift filtering (specific gifts / coin thresholds)
 - Follow triggers
-- Live preview for orb settings (no save required)
+- Live preview for orb settings 
 - Debug tools for testing
 
 ---
