@@ -1,0 +1,12 @@
+﻿{
+  "id": "GeminiOrbFX.UI",
+  "name": "GeminiOrbFX UI",
+  "author": "GeminiJosh",
+  "version": "2.0.0",
+  "description": "Experimental UI version of GeminiOrbFX",
+  "gameVersion": "1.40.8",
+  "dependsOn": {
+    "BSIPA": "^4.0.0",
+    "BeatSaberMarkupLanguage": "^1.12.5"
+  }
+}

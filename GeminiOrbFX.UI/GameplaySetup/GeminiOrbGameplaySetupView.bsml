@@ -1,0 +1,128 @@
+﻿<vertical spacing="0" pad="0">
+
+	<horizontal spacing="2" align="Center">
+
+		<button text="~status-tab-text"
+				on-click="show-status"
+				width="26"
+				preferred-height="8" />
+
+		<button text="~orbcontrols-tab-text"
+				on-click="show-orbcontrols"
+				width="26"
+				preferred-height="8" />
+
+	</horizontal>
+
+	<vertical spacing="0" pad="0">
+
+		<!-- STATUS PANEL -->
+		<vertical active="~show-status-panel"
+				  spacing="2"
+				  align="Center">
+
+			<horizontal spacing="10" align="Center">
+
+				<!-- LEFT COLUMN (labels) -->
+				<vertical spacing="3">
+					<text text="HTTP Orb"
+						  width="26"
+						  align="Left" />
+					<text text="Service"
+						  width="26"
+						  align="Left" />
+					<text text="Username"
+						  width="26"
+						  align="Left" />
+					<text text="Queue"
+						  width="26"
+						  align="Left" />
+				</vertical>
+
+				<!-- RIGHT COLUMN (values) -->
+				<vertical spacing="3">
+					<text id="http-status-value"
+						  text="..."
+						  width="22"
+						  align="Left" />
+
+					<text id="tiktok-status-value"
+						  text="..."
+						  width="22"
+						  align="Left" />
+
+					<text id="tiktok-username-value"
+						  text="-"
+						  width="22"
+						  align="Left" />
+
+					<text id="queue-count-value"
+						  text="0 / 0"
+						  width="22"
+						  align="Left" />
+				</vertical>
+
+			</horizontal>
+
+			<button text="~clear-queue-button-text"
+					on-click="clear-queue"
+					interactable="~can-clear-queue"
+					width="22"
+					preferred-height="6" />
+
+			<vertical spacing="2">
+				<text text="" />
+				<text text="" />
+				<text text="" />
+			</vertical>
+
+		</vertical>
+
+		<!-- ORB CONTROLS PANEL (unchanged) -->
+		<vertical active="~show-orbcontrols-panel"
+				  spacing="0">
+
+			<horizontal spacing="13" align="Center">
+
+				<vertical spacing="2">
+					<text text="Spawn Distance" width="24" align="Left" />
+					<text text="Orb Height" width="24" align="Left" />
+					<text text="Orb Speed" width="24" align="Left" />
+					<text text="Text Scale" width="24" align="Left" />
+				</vertical>
+
+				<vertical spacing="2">
+
+					<horizontal spacing="2">
+						<button text="~minus-button-text" on-click="dec-spawn-distance" width="7" />
+						<text id="spawn-distance-value" text="0.00" width="11" align="Center" />
+						<button text="~plus-button-text" on-click="inc-spawn-distance" width="7" />
+					</horizontal>
+
+					<horizontal spacing="2">
+						<button text="~minus-button-text" on-click="dec-orb-height" width="7" />
+						<text id="orb-height-value" text="0.00" width="11" align="Center" />
+						<button text="~plus-button-text" on-click="inc-orb-height" width="7" />
+					</horizontal>
+
+					<horizontal spacing="2">
+						<button text="~minus-button-text" on-click="dec-orb-speed" width="7" />
+						<text id="orb-speed-value" text="0.00" width="11" align="Center" />
+						<button text="~plus-button-text" on-click="inc-orb-speed" width="7" />
+					</horizontal>
+
+					<horizontal spacing="2">
+						<button text="~minus-button-text" on-click="dec-text-size" width="7" />
+						<text id="text-size-value" text="0.00" width="11" align="Center" />
+						<button text="~plus-button-text" on-click="inc-text-size" width="7" />
+					</horizontal>
+
+				</vertical>
+
+			</horizontal>
+
+		</vertical>
+
+	</vertical>
+
+</vertical>

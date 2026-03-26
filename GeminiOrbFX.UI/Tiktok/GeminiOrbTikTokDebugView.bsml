@@ -1,0 +1,67 @@
+﻿<vertical spacing="3" pad="6">
+
+	<horizontal spacing="1" align="Center">
+		<button text="~main-tab-text"
+				on-click="show-main"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~orbcontrols-tab-text"
+				on-click="show-orbcontrols"
+				width="24"
+				preferred-height="8" />
+
+		<button text="~tiktok-tab-text"
+				on-click="show-tiktok"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~about-tab-text"
+				on-click="show-about"
+				width="18"
+				preferred-height="8" />
+	</horizontal>
+
+	<horizontal spacing="1" align="Center">
+		<button text="~connection-subtab-text"
+				on-click="show-connection-subtab"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~triggers-subtab-text"
+				on-click="show-triggers-subtab"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~giftsettings-subtab-text"
+				on-click="show-giftsettings-subtab"
+				interactable="~gift-settings-enabled"
+				width="24"
+				preferred-height="8" />
+
+		<button text="~debug-subtab-text"
+				on-click="show-debug-subtab"
+				width="18"
+				preferred-height="8" />
+	</horizontal>
+
+	<vertical spacing="2" align="Center">
+
+		<button text="~sim-follow-button-text"
+				on-click="simulate-follow"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~sim-gift-button-text"
+				on-click="simulate-gift"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~sim-chat-button-text"
+				on-click="simulate-chat"
+				width="18"
+				preferred-height="8" />
+
+	</vertical>
+
+</vertical>
