@@ -2,7 +2,7 @@
 
 # GeminiOrbFX
 
-Interactive Orb Effects for Beat Saber triggered by live events (TikTok, Twitch, Streamer.bot, HTTP).
+Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok, Twitch, Streamer.bot, HTTP).
 
 ---
 
