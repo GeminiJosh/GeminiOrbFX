@@ -60,7 +60,7 @@ TikTok Relay requires your own Euler API key.
 
 ---
 
-### 🤖 Streamer.bot (Recommended)
+## 🤖 Streamer.bot (Recommended)
 
 - Works with:
   - Twitch
