@@ -4,9 +4,7 @@
 
 Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok, Twitch, Streamer.bot, HTTP).
 
-<img width="2147" height="1124" alt="Gameplay Orb Preview" src="https://github.com/user-attachments/assets/74be3cf1-906f-4593-962a-2286d208a9fe" />
-
-
+<img width="2147" height="1124" alt="Gameplay Orb Preview" src="https://github.com/user-attachments/assets/ddf406cf-fd52-49c2-8f1b-8a323086c6ed" />
 
 ---
 
@@ -39,7 +37,11 @@ Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok
 
 - Built into the mod  
 - Requires your own Euler API key (see below)  
-- Connect from the in-game UI  
+- Connect from the in-game UI
+<img width="756" height="637" alt="Tiktok Connection" src="https://github.com/user-attachments/assets/94ee67b0-c7ab-4e2f-baf4-dac45d836ed4" />
+<img width="771" height="647" alt="Tiktok Triggers" src="https://github.com/user-attachments/assets/2660a9dd-fc86-4600-801f-c16481e67f96" />
+<img width="760" height="656" alt="Tiktok Gift Settings" src="https://github.com/user-attachments/assets/f1327966-1505-4753-8b62-7c4e1ef55f01" />
+
 
 ---
 
@@ -51,7 +53,9 @@ Interactive Orb Effects for Beat Saber (1.40.8) triggered by live events (TikTok
   - YouTube
 - No API key required  
 - Uses simple HTTP endpoints  
-- Most stable option  
+- Most stable option
+<img width="726" height="633" alt="Tiktok Streamer Bot Setting" src="https://github.com/user-attachments/assets/49235365-29f7-428b-bdf2-51cf217a6e12" />
+  
 
 ---
 
@@ -106,16 +110,19 @@ Just import it into Streamer.bot — no manual setup required.
 
 - Main Menu  
   - Shows service mode + status  
-  - Queue info  
+  - Queue info
+<img width="794" height="674" alt="GeminiOrbFX Main" src="https://github.com/user-attachments/assets/cd35083b-e1d2-4d30-9e8f-1588673f3f78" />
 
 - Gameplay Setup  
   - Live status view  
-  - Queue + connection state  
-
+  - Queue + connection state
+<img width="958" height="611" alt="Gameplay Menu Status" src="https://github.com/user-attachments/assets/5ece5008-7955-49cf-8ab7-9fea6f2b1f3d" />
+ 
 - Orb Controls  
   - Real-time preview  
   - No save required for testing  
-  - Save to keep changes  
+  - Save to keep changes
+<img width="886" height="686" alt="Orb Controls Preview" src="https://github.com/user-attachments/assets/eb21b4f9-309c-4b08-89a1-de9a66b99cb3" />
 
 ---
 
