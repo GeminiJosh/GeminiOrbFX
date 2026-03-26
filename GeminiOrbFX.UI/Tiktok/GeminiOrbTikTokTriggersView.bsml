@@ -1,0 +1,104 @@
+﻿<vertical spacing="3" pad="6">
+
+	<horizontal spacing="1" align="Center">
+		<button text="~main-tab-text"
+				on-click="show-main"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~orbcontrols-tab-text"
+				on-click="show-orbcontrols"
+				width="24"
+				preferred-height="8" />
+
+		<button text="~tiktok-tab-text"
+				on-click="show-tiktok"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~about-tab-text"
+				on-click="show-about"
+				width="18"
+				preferred-height="8" />
+	</horizontal>
+
+	<horizontal spacing="1" align="Center">
+		<button text="~connection-subtab-text"
+				on-click="show-connection-subtab"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~triggers-subtab-text"
+				on-click="show-triggers-subtab"
+				width="18"
+				preferred-height="8" />
+
+		<button text="~giftsettings-subtab-text"
+				on-click="show-giftsettings-subtab"
+				interactable="~gift-settings-enabled"
+				width="24"
+				preferred-height="8" />
+
+		<button text="~debug-subtab-text"
+				on-click="show-debug-subtab"
+				width="18"
+				preferred-height="8" />
+	</horizontal>
+
+	<horizontal spacing="4" align="Center">
+
+		<vertical spacing="1" width="22">
+			<text text="~new-follower-label-text"
+				  align="Left" />
+
+			<text text="~gift-label-text"
+				  align="Left" />
+
+			<text text="~chat-command-label-text"
+				  align="Left" />
+
+			<text text="~chat-permission-label-text"
+				  align="Left" />
+
+			<text text="~command-text-label-text"
+				  align="Left" />
+		</vertical>
+
+		<vertical spacing="1" width="30">
+			<button text="~new-follower-button-text"
+					on-click="set-trigger-new-follower"
+					width="30"
+					preferred-width="30"
+					preferred-height="8" />
+
+			<button text="~gift-button-text"
+					on-click="set-trigger-gift"
+					width="30"
+					preferred-width="30"
+					preferred-height="8" />
+
+			<button text="~chat-command-button-text"
+					on-click="set-trigger-chat-command"
+					width="30"
+					preferred-width="30"
+					preferred-height="8" />
+
+			<button text="~chat-permission-text"
+					on-click="cycle-chat-permission"
+					interactable="~chat-permission-interactable"
+					width="30"
+					preferred-width="30"
+					preferred-height="8" />
+
+			<string-setting text=""
+							value="chat-command-text"
+							on-change="chat-command-text-changed"
+							apply-on-change="true"
+							interactable="~chat-command-text-interactable"
+							width="30"
+							preferred-width="30" />
+		</vertical>
+
+	</horizontal>
+
+</vertical>

@@ -1,0 +1,111 @@
+﻿<vertical spacing="3" pad="6">
+
+	<horizontal spacing="1" align="Center">
+
+		<button id="main-tab-button"
+				text="~main-tab-text"
+				on-click="show-main"
+				width="18"
+				preferred-height="8" />
+
+		<button id="orbcontrols-tab-button"
+				text="~orbcontrols-tab-text"
+				on-click="show-orbcontrols"
+				width="24"
+				preferred-height="8" />
+
+		<button id="tiktok-tab-button"
+				text="~tiktok-tab-text"
+				on-click="show-tiktok"
+				width="18"
+				preferred-height="8" />
+
+		<button id="about-tab-button"
+				text="~about-tab-text"
+				on-click="show-about"
+				width="18"
+				preferred-height="8" />
+
+	</horizontal>
+
+	<horizontal spacing="10" align="Center">
+
+		<vertical spacing="2">
+			<text text="Spawn Distance" />
+			<text text="Orb Height" />
+			<text text="Orb Speed" />
+			<text text="Text Size" />
+		</vertical>
+
+		<vertical spacing="2">
+
+			<horizontal spacing="2">
+				<button text="~minus-button-text"
+						on-click="dec-spawn-distance"
+						width="6" />
+				<text text="~spawn-distance-display"
+					  width="10"
+					  align="Center" />
+				<button text="~plus-button-text"
+						on-click="inc-spawn-distance"
+						width="6" />
+			</horizontal>
+
+			<horizontal spacing="2">
+				<button text="~minus-button-text"
+						on-click="dec-orb-height"
+						width="6" />
+				<text text="~orb-height-display"
+					  width="10"
+					  align="Center" />
+				<button text="~plus-button-text"
+						on-click="inc-orb-height"
+						width="6" />
+			</horizontal>
+
+			<horizontal spacing="2">
+				<button text="~minus-button-text"
+						on-click="dec-orb-speed"
+						width="6" />
+				<text text="~orb-speed-display"
+					  width="10"
+					  align="Center" />
+				<button text="~plus-button-text"
+						on-click="inc-orb-speed"
+						width="6" />
+			</horizontal>
+
+			<horizontal spacing="2">
+				<button text="~minus-button-text"
+						on-click="dec-text-size"
+						width="6" />
+				<text text="~text-size-display"
+					  width="10"
+					  align="Center" />
+				<button text="~plus-button-text"
+						on-click="inc-text-size"
+						width="6" />
+			</horizontal>
+
+		</vertical>
+
+	</horizontal>
+
+	<horizontal spacing="4" align="Center">
+
+		<button text="~save-button-text"
+				on-click="save-config"
+				interactable="~can-save"
+				width="14" />
+
+		<button text="~reset-button-text"
+				on-click="reset-orb-defaults"
+				width="14" />
+
+	</horizontal>
+
+	<text text="~save-status"
+		  font-size="3"
+		  align="Center" />
+
+</vertical>
